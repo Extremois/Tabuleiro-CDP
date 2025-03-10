@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tabuleiro Computação Desplugada</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tabuleiro Computação Desplugada</h1>
+  <span>Cartas de construção de mapa:<br></span>
+  <div class="palette">
+    <div class="tile" data-type="empty">Limpar</div>
+    <div class="tile" data-type="horizontal">Rua Horizontal '—'</div>
+    <div class="tile" data-type="obstaculo">Obstaculo '&#x1F9F1'</div>
+    <div class="tile" data-type="vertical">Rua Vertical '|'</div>
+    <div class="tile" data-type="cross">Encruzilhada '+'</div>
+    <div class="tile" data-type="artefato">Artefato '&#x1F4E6;'</div>
+    <div class="tile" data-type="start">Início '&#x1F6A6;'</div>
+    <div class="tile" data-type="end">Fim '&#x1F3C1;'</div>
+  </div>
+  <div id="board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
